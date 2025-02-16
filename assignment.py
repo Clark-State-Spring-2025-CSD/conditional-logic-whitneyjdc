@@ -13,3 +13,16 @@
 #The month is February and the current season is Winter.
 #Remember to also complete the flowchart. It is strongly advised that you do the flowchart first,
 #as this will help you write the code.
+
+selection = input("What month is it? (1-12)")
+
+if selection == "3,4,5":
+   print("Spring")
+elif selection == "6,7,8":
+   print("Summer")
+elif selection == "9,10,11":
+   print("Fall")
+elif selection == "12,1,2":
+   print("Winter")
+
+print("The current season is: " + "Spring" or "Summer" or "Fall" or "Winter") 
